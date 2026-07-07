@@ -1,0 +1,23 @@
+[
+    {
+        "company": "Indonesia International Invention Expo (IIIEX) 2025",
+        "logo": "images/logo-iiiex.jpeg",
+        "position": "Silver Medalist — International Young Scientist Association (IYSA)",
+        "year": "2025",
+        "description": "Awarded Silver Medal for the project 'PRIME: IoT-Based Smart Glove for Post-Stroke Rehabilitation'. Successfully developed an IoT-based smart glove using a pneumatic system and biometric sensors for patient recovery."
+    },
+    {
+        "company": "ASEAN Innovative Science Environmental and Entrepreneur Fair (AISEEF) 2023",
+        "logo": "images/logo-aiseef.png",
+        "position": "Gold Medalist — Indonesian Young Scientist Association (IYSA)",
+        "year": "2023",
+        "description": "Awarded Gold Medal for research on 'Ruminant Biscuits Made From Coconut Dregs'. Developed high-nutrient ruminant feed biscuits using coconut waste (Cocos nucifera L) combined with papaya and lamtoro leaves."
+    },
+    {
+        "company": "Indonesia International Applied Science Project Olympiad (I2ASPO) 2022",
+        "logo": "images/logo-i2aspo.webp",
+        "position": "Silver Medalist — Indonesian Young Scientist Association (IYSA)",
+        "year": "2022",
+        "description": "Awarded Silver Medal for the project 'UPAFOAM Roof Tiles'. Innovated eco-friendly construction materials by utilizing palm fiber waste and styrofoam in the manufacture of concrete roof tiles."
+    }
+]

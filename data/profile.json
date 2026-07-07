@@ -1,0 +1,35 @@
+{
+    "name": "Oryza Ilyas Aryaduta - Diploma IV Student of Electronics Engineering at Politeknik Negeri Semarang",
+    "description": "I am a Diploma IV student of Electronics Engineering at Politeknik Negeri Semarang, with a strong passion for embedded systems, Internet of Things (IoT), and hardware design. I have gained practical experience in these areas through various academic projects, where I have developed innovative solutions and honed my technical skills. My dedication to continuous learning and problem-solving drives me to stay updated with the latest advancements in technology, enabling me to contribute effectively to the field of electronics engineering.",
+    "profileImage": "images/profile.png",
+    "email": "oryza.43423119@mhs.polines.ac.id",
+    "phone": "(+62) 821-3541-9322", 
+    "socialMedia": [
+        {
+            "platform": "LinkedIn",
+            "url": "www.linkedin.com/in/oryzailyas"
+        },
+        {
+            "platform": "GitHub",
+            "url": "https://github.com/Oryza-tech"
+        },
+        {
+            "platform": "Instagram",
+            "url": "https://instagram.com/oryzailyss_"
+        }
+    ],
+    "cv": {
+			"text": "Download CV",
+			"file": "docs/CV Oryza Ilyas Aryaduta.pdf",
+			"icon": "fas fa-file-pdf"
+	},
+    "skills": [
+        {"name": "Embedded Systems", "icon": "fas fa-microchip", "level": 90},
+        {"name": "Internet of Things", "icon": "fas fa-wifi", "level": 95},
+        {"name": "Hardware Design", "icon": "fas fa-desktop", "level": 90},
+	{"name": "Hardware Programming", "icon": "fas fa-c", "level": 90},
+        {"name": "Web Programming", "icon": "fab fa-js", "level": 40},
+	{"name": "Project Management", "icon": "fas fa-list-check", "level": 95},
+	{"name": "Foreign Languages", "icon": "fas fa-language", "level": 80}
+    ]
+}

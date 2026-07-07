@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Smart IoT Pedometer & Activity Tracker with Firebase Integration",
+        "year": "2025",
+        "partner": "Politeknik Negeri Semarang",
+        "role": "IoT Developer",
+        "description": "Developed a low-cost, real-time activity monitoring system designed to track daily physical activity. Utilizes an ADXL345 accelerometer and an ESP32 microcontroller to detect and count steps, calculate distance traveled, and estimate calories burned with Google Firebase Firestore real-time dashboard integration.",
+        "image": "images/project-pedometer.png",
+        "link": ""
+    },
+    {
+        "title": "PRIME: IoT-Based Smart Glove for Post-Stroke Rehabilitation",
+        "year": "2025",
+        "partner": "Politeknik Negeri Semarang",
+        "role": "Silver Medalist (IIIEX 2025)",
+        "description": "Developed an innovative Smart Glove prototype utilizing an ESP32 microcontroller, Myoware Muscle 2.0 EMG sensor, and MAX30102 biometric sensor with pneumatic actuation to assist post-stroke hand mobility and allow remote therapist monitoring.",
+        "image": "images/project-prime-glove.png",
+        "link": ""
+    },
+    {
+        "title": "Ruminant Biscuits Made From Coconut Dregs With Papaya & Lamtoro Leaves",
+        "year": "2023",
+        "partner": "SMA Trensains Muhammadiyah Sragen",
+        "role": "Gold Medalist (AISEEF 2023)",
+        "description": "Conducted award-winning research transforming organic waste into high-nutrient animal feed biscuits for ruminant livestock using coconut dregs, papaya, and lamtoro leaves. Awarded a Gold Medal at the ASEAN Innovative Science Environmental and Entrepreneur Fair (AISEEF) 2023.",
+        "image": "images/project-biscuits.png",
+        "link": ""
+    },
+    {
+        "title": "UPAFOAM Roof Tiles: Utilization of Waste Palm Fiber and Styrofoam",
+        "year": "2022",
+        "partner": "SMA Trensains Muhammadiyah Sragen",
+        "role": "Silver Medalist (I2ASPO 2022)",
+        "description": "Engineered an eco-friendly concrete roof tile alternative by integrating non-biodegradable waste palm fiber and styrofoam to create a lightweight yet durable construction material. Awarded a Silver Medal at the Indonesia International Applied Science Project Olympiad (I2ASPO) 2022.",
+        "image": "images/project-upafoam.png",
+        "link": ""
+    }
+]
