@@ -30,6 +30,8 @@
 	{"name": "Hardware Programming", "icon": "fas fa-c", "level": 90},
         {"name": "Web Programming", "icon": "fab fa-js", "level": 40},
 	{"name": "Project Management", "icon": "fas fa-list-check", "level": 95},
-	{"name": "Foreign Languages", "icon": "fas fa-language", "level": 80}
+	{"name": "Foreign Languages", "icon": "fas fa-language", "level": 80},
+    {"name": "Applied Research & R&D", "icon": "fas fa-flask", "level": 90},
+    {"name": "Technical Pitching & Presentation", "icon": "fas fa-microphone-alt", "level": 90}
     ]
 }
