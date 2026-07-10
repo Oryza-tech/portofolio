@@ -41,7 +41,7 @@ function renderProfile(data) {
         socialLinks.appendChild(link);
     });
 	
-	    // Render skills
+    // Render skills
     if (data.skills) {
         const skillsGrid = document.getElementById('skills-grid');
         data.skills.forEach(skill => {
@@ -91,7 +91,7 @@ function renderEducation(data) {
     });
 }
 
-// Render Experience Section
+// Render Experience Section (Honors & Awards)
 function renderExperience(data) {
     const experienceList = document.getElementById('experience-list');
     
@@ -140,7 +140,7 @@ function renderProjects(data) {
     });
 }
 
-// Initialize the page
+// Initialize the page and scrolling behavior
 document.addEventListener('DOMContentLoaded', loadData);
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -200,5 +200,39 @@ document.addEventListener('DOMContentLoaded', function() {
         section.style.opacity = '0';
         section.style.transform = 'translateY(20px)';
         section.style.transition = 'all 0.6s ease-out';
+    });
+
+    // ==========================================
+    // THEME TOGGLE LOGIC
+    // ==========================================
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = themeToggle.querySelector('i');
+    
+    // 1. Cek apakah ada tema yang tersimpan di LocalStorage
+    const savedTheme = localStorage.getItem('theme');
+    
+    // 2. Fungsi untuk mengaktifkan tema
+    const setTheme = (isDark) => {
+        if (isDark) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            themeIcon.classList.replace('fa-moon', 'fa-sun');
+            localStorage.setItem('theme', 'dark');
+        } else {
+            document.documentElement.removeAttribute('data-theme');
+            themeIcon.classList.replace('fa-sun', 'fa-moon');
+            localStorage.setItem('theme', 'light');
+        }
+    };
+
+    // 3. Setel tema awal (Default ke dark kalau OS user pakai dark mode, atau ikuti LocalStorage)
+    if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        setTheme(true);
+    }
+
+    // 4. Aksi saat tombol diklik
+    themeToggle.addEventListener('click', function(e) {
+        e.preventDefault(); // Mencegah layar loncat ke atas saat link diklik
+        const isDarkNow = document.documentElement.hasAttribute('data-theme');
+        setTheme(!isDarkNow);
     });
 });
